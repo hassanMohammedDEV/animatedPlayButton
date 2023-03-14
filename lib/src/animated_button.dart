@@ -83,9 +83,9 @@ class _AnimatedPlayButton extends State<AnimatedPlayButton> with
       child: InkWell(
         onTap: _onToggle,
         child: isPlaying ? Icon(widget.pauseIcon??Icons.pause,color:
-        widget.pauseIconColor?? Colors.red, size: widget.pauseIconSize ?? 25,)  :
-        Icon(widget.pauseIcon??Icons.play_arrow,color:
-        widget.pauseIconColor?? Colors.blue,size: widget.playIconSize ?? 25),
+        widget.pauseIconColor ?? Colors.red, size: widget.pauseIconSize ?? 25,)  :
+        Icon(widget.pauseIcon ?? Icons.play_arrow,color:
+        widget.playIconColor ?? Colors.blue,size: widget.playIconSize ?? 25),
       ),
     );
   }
